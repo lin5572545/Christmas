@@ -1,0 +1,81 @@
+<audio src="{{src}}" id="myAudio" autoplay="autoplay"loop></audio>
+<view class="newYear" bindtap="handleTap">
+  <canvas class="myCanvas" style="width: 100%; height:100%" canvas-id="myCanvas"></canvas>
+  <!-- 内容放到scroll-view里解决canvas随滚动条滚动的bug -->
+  <scroll-view class="scroll-view" scroll-y="true" style="height: 100%;"> 
+  </scroll-view>
+
+</view>
+
+
+<view class="loading">
+	<view class="flour3"></view>
+</view>
+<view class="loading">
+	<view wx:for="{{1}}" class="flour">🐏</view>
+</view>
+<view class="loading">
+	<view wx:for="{{3}}" class="flour">🐏</view>
+</view>
+<view class="loading">
+  <view class="flour1"></view>
+	<view wx:for="{{5}}" class="flour">🐏</view>
+  <view class="flour1"></view>
+</view>
+<view class="loading">
+  <view class="flour1"></view>
+	<view wx:for="{{7}}" class="flour">🐏</view>
+  <view class="flour1"></view>
+</view>
+<view class="loading">
+	<view wx:for="{{5}}" class="flour">🐏</view>
+</view>
+<view class="loading">
+	<view wx:for="{{7}}" class="flour">🐏</view>
+</view>
+<view class="loading">
+  <view class="flour1"></view>
+	<view wx:for="{{9}}" class="flour">🐏</view>
+  <view class="flour1"></view>
+</view>
+<view class="loading">
+  <view class="flour1"></view>
+	<view wx:for="{{11}}" class="flour">🐏</view>
+  <view class="flour1"></view>
+</view>
+<view class="loading">
+	<view wx:for="{{9}}" class="flour">🐏</view>
+</view>
+<view class="loading">
+	<view wx:for="{{11}}" class="flour">🐏</view>
+</view>
+<view class="loading">
+  <view class="flour1"></view>
+	<view wx:for="{{13}}" class="flour">🐏</view>
+  <view class="flour1"></view>
+</view>
+<view class="loading">
+  <view class="flour1"></view>
+	<view wx:for="{{15}}" class="flour">🐏</view>
+  <view class="flour1"></view>
+</view>
+<view class="loading">
+	<view wx:for="{{3}}" class="flour2"></view>
+</view>
+<view class="loading">
+	<view wx:for="{{3}}" class="flour21"></view>
+</view>
+<view class="loading">
+	<view wx:for="{{3}}" class="flour21"></view>
+</view>
+<view class="loading">
+	<view wx:for="{{3}}" class="flour21"></view>
+</view>
+<view class="loading">
+	<view wx:for="{{3}}" class="flour21"></view>
+</view>
+
+<view class="loading">
+	<view class="flour4">Yang</view>
+</view>
+

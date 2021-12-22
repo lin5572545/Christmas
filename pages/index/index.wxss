@@ -1,0 +1,92 @@
+page{
+  margin-top: 1cm;
+  padding: 0;
+  background-color:black
+}
+.loading{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+  justify-content: center;
+}
+
+.loading .flour{
+  width: 16px;
+  height: 16px;
+  background-color: #008a17;
+  margin: 3px 1px;
+  z-index: -1
+}
+.loading .flour1{
+  width: 16px;
+  height: 16px;
+  background-color: #ff0000;
+  margin: 1px;
+  border-radius: 50%;
+  animation:myfirst 1s;
+animation-iteration-count:1000;
+}
+
+.loading .flour2{
+  width: 16px;
+  height: 16px;
+  background-color: #8a3e00;
+  margin:3px 1px 1px 1px;
+}
+@keyframes myfirst
+{
+  0%   {background:red;}
+  25%  {background:yellow;}
+  50%  {background:red;}
+  75%  {background:yellow;}
+  100% {background:red;}
+}
+
+.loading .flour3{
+  width: 16px;
+  height: 16px;
+  background-size:16px 16px;
+  background-image:url("http://r4cwws496.hn-bkt.clouddn.com/samagami%20samiikarana.gif");
+}
+
+.loading .flour4{
+  color: rgb(109, 0, 0);
+  font-size: 100rpx;
+  font-family: YouYuan;
+  font-style:italic;
+
+  position: fixed;
+  text-align: center;
+  bottom: 100rpx;
+  left: 0;
+  right: 30rpx;
+}
+
+.loading .flour21{
+  width: 16px;
+  height: 16px;
+  background-color: #8a3e00;
+  margin:1px 1px;
+}
+
+
+
+
+
+
+.scroll-view image {
+  width: 100%;
+  z-index: 999;
+}
+
+
+
+/* 如果想点透canvas 添加下面属性 */
+.myCanvas {
+  position: fixed;
+  pointer-events: none;
+  z-index: 999;
+}
+
