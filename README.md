@@ -12,6 +12,6 @@
 ![扫码_搜索联合传播样式-标准色版](https://user-images.githubusercontent.com/85597324/147039499-c041988b-9b59-46fe-99a5-67ee0786d13e.png)
 
 
-音乐播放https://blog.csdn.net/caoli201314/article/details/117715060
+音乐播放实现https://blog.csdn.net/caoli201314/article/details/117715060
 
-飘落特效https://github.com/paulwing/forGXL
+飘落特效实现https://github.com/paulwing/forGXL
